@@ -1,0 +1,22 @@
+.stripe {
+    margin: 0 auto;
+    max-width: 700px;
+    &__title {
+        text-align: center;
+    }
+    &__content {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #0dae15;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    &__post {
+        padding: 15px;
+        border-radius: 8px;
+        background-color: #e7fe50;
+    }
+
+}

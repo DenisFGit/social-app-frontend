@@ -1,0 +1,22 @@
+.nav {
+    &__menu {
+        margin-bottom: 0;
+        padding-left: 0;
+        display: flex;
+        list-style-type: none;
+        // justify-content: space-between;
+        gap: 30px;
+        font-size: 18px;
+        a {
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            &:hover {
+                color: blue;
+            }
+        }
+    }
+    &__btn {
+        color: #000;
+    }
+}
